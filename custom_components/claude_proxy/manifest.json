@@ -1,0 +1,13 @@
+{
+  "domain": "claude_proxy",
+  "name": "Claude Conversation (Proxy)",
+  "after_dependencies": ["assist_pipeline", "intent"],
+  "codeowners": ["@kayloehmann"],
+  "config_flow": true,
+  "dependencies": ["conversation"],
+  "documentation": "https://github.com/kayloehmann/ha-claude-conversation",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "requirements": ["openai>=1.61.0"],
+  "version": "0.1.0"
+}

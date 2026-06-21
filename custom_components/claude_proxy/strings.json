@@ -1,0 +1,39 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "data": {
+          "base_url": "Basis-URL des ha-claude-proxy-Adapters",
+          "api_key": "[%key:common::config_flow::data::api_key%]"
+        },
+        "data_description": {
+          "base_url": "OpenAI-kompatibler Endpunkt, z. B. http://10.111.0.104:8080/v1",
+          "api_key": "Vom Adapter ignoriert — Platzhalter genügt."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+      "invalid_auth": "[%key:common::config_flow::error::invalid_auth%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "data": {
+          "prompt": "Instruktionen",
+          "chat_model": "[%key:common::generic::model%]",
+          "max_tokens": "Maximale Tokens in der Antwort",
+          "temperature": "Temperature",
+          "top_p": "Top P",
+          "llm_hass_api": "[%key:common::config_flow::data::llm_hass_api%]",
+          "recommended": "Empfohlene Modelleinstellungen"
+        },
+        "data_description": {
+          "prompt": "Wie der Assistent antworten soll. Jinja2-Template möglich."
+        }
+      }
+    }
+  }
+}
