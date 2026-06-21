@@ -1,21 +1,21 @@
 # Security Policy
 
-## Supported Versions
+## Unterstützte Versionen
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+Es wird jeweils die neueste veröffentlichte Version mit Sicherheitsfixes
+versorgt. Fixes landen im `master`-Branch und als neues Release.
 
-| Version | Supported          |
+| Version | Unterstützt        |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 0.1.x   | :white_check_mark: |
 
-## Reporting a Vulnerability
+## Schwachstelle melden
 
-Use this section to tell people how to report a vulnerability.
+Bitte melde Sicherheitsprobleme **nicht** über öffentliche Issues, sondern über
+GitHub: *Security → Report a vulnerability* (Private Vulnerability Reporting)
+in diesem Repository. Du erhältst in der Regel innerhalb weniger Tage eine
+Rückmeldung.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Diese Integration enthält selbst keine Geheimnisse; sensible Werte (z. B. die
+Adapter-Adresse) werden ausschließlich lokal in der Home-Assistant-Konfiguration
+gespeichert, nicht im Code.
