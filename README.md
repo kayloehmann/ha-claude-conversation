@@ -11,8 +11,8 @@ dall-e-Bildservice der Vorlage.
 
 ## Voraussetzung
 
-`ha-claude-proxy` läuft erreichbar im LAN (Standard: `http://10.111.0.104:8080/v1`).
-Siehe `~/projects/ha-claude-proxy`.
+`ha-claude-proxy` läuft erreichbar im LAN. Die Basis-URL im Einrichtungsdialog auf
+die Adresse deines Adapters setzen (z. B. `http://homeassistant.local:8080/v1`).
 
 ## Installation
 

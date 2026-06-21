@@ -13,13 +13,13 @@ CONF_TEMPERATURE = "temperature"
 CONF_TOP_P = "top_p"
 CONF_BASE_URL = "base_url"
 
-# Defaults sind auf den hauseigenen ha-claude-proxy-Adapter (NAS, VLAN 111)
-# zugeschnitten. Der Adapter spricht OpenAI /v1 und proxyt zu Claude.
+# Defaults für einen ha-claude-proxy-Adapter (OpenAI-kompatibel, proxyt zu Claude).
+# base_url im Einrichtungsdialog an die eigene Adapter-Adresse anpassen.
 RECOMMENDED_CHAT_MODEL = "claude-sonnet-4-6"
 RECOMMENDED_MAX_TOKENS = 1024
 RECOMMENDED_TEMPERATURE = 1.0
 RECOMMENDED_TOP_P = 1.0
-RECOMMENDED_BASE_URL = "http://10.111.0.104:8080/v1"
+RECOMMENDED_BASE_URL = "http://homeassistant.local:8080/v1"
 
 # Persona-Default (in der UI frei überschreibbar). Die HA-LLM-API hängt die
 # Tool-/Entity-Instruktionen automatisch an.

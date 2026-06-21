@@ -7,7 +7,7 @@
           "api_key": "[%key:common::config_flow::data::api_key%]"
         },
         "data_description": {
-          "base_url": "OpenAI-kompatibler Endpunkt, z. B. http://10.111.0.104:8080/v1",
+          "base_url": "OpenAI-kompatibler Endpunkt, z. B. http://homeassistant.local:8080/v1",
           "api_key": "Vom Adapter ignoriert — Platzhalter genügt."
         }
       }
